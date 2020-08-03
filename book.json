@@ -1,0 +1,20 @@
+{
+    "plugins": [
+    	"donate", 
+    	"edit-link"
+    ],
+    "pluginsConfig": {
+        "donate": {
+          "wechat": "例：/images/qr.png",
+          "alipay": "http://blog.willin.wang/static/images/qr.png",
+          "title": "",
+          "button": "打赏",
+          "alipayText": "默认值：支付宝捐赠",
+          "wechatText": "默认值：微信捐赠"
+        },
+        "edit-link": {
+            "base": "https://github.com/darrenliuwei/gitbook/edit/master",
+            "label": "Edit This Page"
+        }
+    }
+}
